@@ -3,10 +3,10 @@
 The challenge today is to setup the two chains and to test the contract on them.
 
 - [x] Clone cw-ibc-queries
-- [ ] Run `generate_template` in the ci-scripts folder for osmosis and wasmd
-- [ ] Start osmosis and wasmd using their start.sh scripts
-- [ ] Go into the tests folder and run nom install
-- [ ] Then run nom test to runs the tests
+- [x] Run `generate_template` in the ci-scripts folder for osmosis and wasmd
+- [x] Start osmosis and wasmd using their start.sh scripts
+- [x] Go into the tests folder and run npm install
+- [x] Then run `npm test` to runs the tests
 
 # CosmWasm IBC Queries
 Implements generic IBC queries in CosmWasm. This implementation requires the same contract to be deployed on both chains wishing to query each other.
